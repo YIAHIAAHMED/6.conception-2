@@ -45,7 +45,7 @@ function App() {
       {/* {activeTab==='model'? <Models modelPromise={modelPromise} ></Models> : null}
       {activeTab==='cart'? <Cart></Cart> : null} */}
       {activeTab==='model' && <Models modelPromise={modelPromise} carts= {carts} setCarts={setCarts} ></Models>}
-      {activeTab ==='cart' && <Cart carts={carts} ></Cart> }
+      {activeTab ==='cart' && <Cart carts={carts} setCarts= {setCarts} ></Cart> }
 
 
 
